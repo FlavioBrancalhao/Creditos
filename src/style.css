@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;400&display=swap');
+
+body{
+    background-color: #303030;
+   
+}
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.floating{
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    bottom: 0;
+    right: 0;
+    width: 300px;
+    height: auto;
+    border: solid 1px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    border-radius: 7px;
+    padding: 10px;
+    background-color: aquamarine;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+h1{
+    font-family: Titillium Web;
+    font-weight: 400;
+    list-style: none;
+    color: white;
+}
+li{
+    text-align: center;
+}
+strong{
+    color: ;
+    font-size: 1.2em;
+    font-family: Titillium Web;
+    font-weight: 200;
+    margin-bottom: 20px;
+    margin-top: 20px;
+
+}
+input{
+    background-color: inherit;
+    border: none;
+    border-bottom: solid 1px;
+    margin-bottom: 20px;
+    color: #303030;
+    font-size: 1.5em;
+}
+button{
+    width: 120px;
+    height: 50px;
+    border-radius: 7px;
+    border: none;
+    font-size: 1.2em;
+    background-color: rgb(0, 172, 172);
+    color: white;
+   
+}
+button:hover{
+    background-color: rgb(2, 194, 194);
+    color: rgb(233, 233, 233);
+    cursor: pointer;
+}
